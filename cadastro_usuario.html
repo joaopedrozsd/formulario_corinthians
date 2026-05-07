@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Usuário</title>
+
+<style>
+
+body{
+    font-family: Arial;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('torcida-do-corinthians-fazendo-festa-durante-6r941w.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+
+    background: rgba(255,255,255,0.1);
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    backdrop-filter: blur(10px);
+
+    color: white;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+
+    border: none;
+    border-radius: 8px;
+}
+
+button{
+    width: 48%;
+    padding: 10px;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Cadastro de Usuário</h1>
+
+<form action="index.html">
+
+<label>Nome Completo</label>
+<input type="text" required>
+
+<label>Endereço Completo</label>
+<input type="text" required>
+
+<label>E-mail</label>
+<input type="email" required>
+
+<label>Login</label>
+<input type="text" required>
+
+<label>Senha</label>
+<input type="password" required>
+
+<label>Confirmar Senha</label>
+<input type="password" required>
+
+<button type="submit">
+Cadastrar
+</button>
+
+<button type="reset">
+Limpar
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
