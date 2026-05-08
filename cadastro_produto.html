@@ -1,114 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
 <meta charset="UTF-8">
 <title>Cadastro de Produto</title>
-
-<style>
-
-body{
-    font-family: Arial;
-
-    background-image:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('angel_romero_levanta_taca_da_copa_do_brasil_kit3.jpg');
-
-    background-size: cover;
-    background-position: center;
-
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container{
-    width: 400px;
-
-    background: rgba(255,255,255,0.1);
-
-    padding: 25px;
-
-    border-radius: 15px;
-
-    backdrop-filter: blur(10px);
-
-    color: white;
-}
-
-input, textarea{
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-
-    border: none;
-    border-radius: 8px;
-}
-
-button{
-    width: 100%;
-    padding: 10px;
-    margin-top: 15px;
-
-    border: none;
-    border-radius: 8px;
-
-    cursor: pointer;
-
-    font-weight: bold;
-}
-
-h1{
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-}
-
-</style>
-
 </head>
 
-<body>
+<body bgcolor="black" text="white">
 
-<div class="container">
+<center>
 
-<h1>Cadastro de Produto</h1>
+<h1>Cadastrar Produto</h1>
 
-<form action="principal.html">
+<form>
 
-<label>Nome do Produto</label>
-<input type="text" required>
+Nome do Produto:
 
-<label>Descrição</label>
-<textarea required></textarea>
+<br><br>
 
-<label>Unidade de Medida</label>
-<input type="text" required>
+<input type="text">
 
-<label>Quantidade</label>
-<input type="number" required>
+<br><br>
 
-<label>Valor</label>
-<input type="number" required>
+Preço:
 
-<button type="submit">
-Cadastrar
-</button>
+<br><br>
+
+<input type="text">
+
+<br><br>
+
+Imagem:
+
+<br><br>
+
+<input type="file">
+
+<br><br><br>
+
+<button>Cadastrar Produto</button>
 
 </form>
 
+<br><br>
+
 <a href="principal.html">
-
-<button>
-Voltar ao Início
-</button>
-
+<button>Voltar</button>
 </a>
 
-</div>
+</center>
 
 </body>
 </html>
